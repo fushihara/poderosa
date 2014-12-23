@@ -1,4 +1,5 @@
-﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
   <PropertyGroup>
     <ProjectType>Local</ProjectType>
     <ProductVersion>8.0.50727</ProductVersion>
@@ -26,9 +27,11 @@
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <OldToolsVersion>2.0</OldToolsVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>..\_bin\Debug\</OutputPath>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
     <BaseAddress>285212672</BaseAddress>
     <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
@@ -49,7 +52,7 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <OutputPath>bin\Release\</OutputPath>
+    <OutputPath>..\_bin\Release\</OutputPath>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
     <BaseAddress>285212672</BaseAddress>
     <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
@@ -70,7 +73,7 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'UnitTest|AnyCPU' ">
-    <OutputPath>bin\UnitTest\</OutputPath>
+    <OutputPath>..\_bin\UnitTest\</OutputPath>
     <DefineConstants>TRACE;PODEROSA_KEYFORMAT,UNITTEST</DefineConstants>
     <DocumentationFile>bin\UnitTest\Granados.XML</DocumentationFile>
     <NoWarn>1591</NoWarn>

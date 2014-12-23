@@ -27,7 +27,7 @@
     </UpgradeBackupLocation>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'UnitTest|AnyCPU' ">
-    <OutputPath>bin\UnitTest\</OutputPath>
+    <OutputPath>..\_bin\UnitTest\</OutputPath>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <BaseAddress>285212672</BaseAddress>
     <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
@@ -51,7 +51,7 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Executable|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
-    <OutputPath>bin\Executable\</OutputPath>
+    <OutputPath>..\_bin\Executable\</OutputPath>
     <DefineConstants>TRACE;DEBUG;EXECUTABLE;MONOLITHIC;TESTSESSION</DefineConstants>
     <BaseAddress>285212672</BaseAddress>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
@@ -62,7 +62,7 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'UIUnitTest|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
-    <OutputPath>bin\UIUnitTest\</OutputPath>
+    <OutputPath>..\_bin\UIUnitTest\</OutputPath>
     <DefineConstants>TRACE;DEBUG;UIUNITTEST</DefineConstants>
     <BaseAddress>285212672</BaseAddress>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
